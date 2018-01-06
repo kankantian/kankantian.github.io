@@ -1,6 +1,10 @@
 
 /*媒体查询*/
 @media screen and (min-width:320px) and (max-width:479px){
+    .section1{
+        background-position: -200px -200px;
+    }
+
     .section2, .section3, .section4, .section5 {
         padding:  1%;
     }
