@@ -515,9 +515,6 @@ canvas{
         height: 70px;
         line-height: 70px;
     }
-    .section1{
-        background: url(../images/bg.png) no-repeat center;
-    }
 
     #fullpageMenu li{
         font-size: 22px;
