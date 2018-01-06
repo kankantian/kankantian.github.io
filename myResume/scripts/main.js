@@ -165,7 +165,9 @@ system.android=ua.indexOf('Android')>-1;
     }) : window.imgLoader = loader;
 })();
 
-// imgLoader(['../../images/bg.png','../../images/photo1.jpg'], function(percentage){});
+imgLoader(['../images/bg.png','../images/photo1.jpg'], function(percentage){
+    console.log(percentage)
+});
 
 
 getPercent();
