@@ -1,69 +1,83 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'youyuan';
 }
-a{
+
+a {
     text-decoration: none;
 }
-nav{
+
+nav {
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 9999;
 }
-nav a{
+
+nav a {
     color: #fff;
 }
-nav .center{
+
+nav .center {
     margin: 0px auto;
     overflow: hidden;
 }
-nav .nav_logo{
+
+nav .nav_logo {
     float: left;
     width: 25%;
     height: 85px;
-    line-height:85px;
+    line-height: 85px;
     font-size: 50px;
     text-align: center;
 }
-nav .nav_bar{
+
+nav .nav_bar {
     float: right;
     width: 75%;
     font-size: 20px;
     font-weight: bold;
 }
-#fullpageMenu li{
+
+#fullpageMenu li {
     float: left;
     display: block;
     width: 20%;
     padding: 30px 0;
     text-align: center;
 }
-#fullpageMenu li a{
-    line-height:1.8;
+
+#fullpageMenu li a {
+    line-height: 1.8;
 }
-#fullpageMenu li a:after{
-    display:block;
-    content:"";
+
+#fullpageMenu li a:after {
+    display: block;
+    content: "";
     height: 2px;
     width: 0%;
     background-color: #80d6f2;
-    margin-left:25%;
+    margin-left: 25%;
     transition: width 0.5s ease-in;
-    -moz-transition: width .5s ease-in;   /* Firefox 4 */
-    -webkit-transition: width .5s ease-in; /* Safari 和 Chrome */
-    -o-transition: width .5s ease-in;   /* Opera */
+    -moz-transition: width .5s ease-in;
+    /* Firefox 4 */
+    -webkit-transition: width .5s ease-in;
+    /* Safari 和 Chrome */
+    -o-transition: width .5s ease-in;
+    /* Opera */
 }
-#fullpageMenu li a:hover:after{
+
+#fullpageMenu li a:hover:after {
     width: 50%;
 }
 
 
 /*section*/
-.section .text{
+.section .text {
     text-align: center;
     font-size: 20px;
     font-weight: normal;
@@ -74,65 +88,77 @@ nav .nav_bar{
     padding: 15px 0;
     border-bottom: 2px solid #9eddf2;
 }
-.section .box{
+
+.section .box {
     background-color: #fafafa;
     margin-top: 20px;
     height: 100%;
     overflow: hidden;
 }
-.section p{
+
+.section p {
     font-size: 20px;
-    line-height:2;
+    line-height: 2;
 }
 
 /*section2 section3 section4 section5 */
-.section2, .section3, .section4, .section5{
+.section2,
+.section3,
+.section4,
+.section5 {
     background-color: #dedede;
     padding: 50px;
 }
 
 /* section1*/
-.section1{
-    /* background: url(../images/bg.jpg) no-repeat center; */
-    background: #999;
+.section1 {
+    background: url(../images/bg.jpg) no-repeat center;
+    /* background: #999; */
     text-align: center;
- }
-.section1 .home_img{
-    padding:50px;
 }
- .section1 .home_img img{
-    width: 100px;
-    height:100px;
+
+.section1 .home_img {
+    padding: 50px;
+}
+
+.section1 .home_img img {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
- }
-.section1 .home_content{
-    display:block;
+}
+
+.section1 .home_content {
+    display: block;
     width: 50%;
     margin: 0 auto;
 }
-.section1 .home_content h2{
+
+.section1 .home_content h2 {
     font-size: 22px;
     color: #fff;
     line-height: 1.5;
     padding: 10px;
 }
-.section1 .home_content  .txt{
+
+.section1 .home_content .txt {
     text-align: center;
     border-bottom: 2px solid #fff;
 }
 
 /*section2*/
-.section2 .skill{
+.section2 .skill {
     margin-top: 20px;
     overflow: hidden;
 }
-.section2 .skill_level{
-    width:30%;
+
+.section2 .skill_level {
+    width: 30%;
     height: 100%;
     float: left;
     margin-left: 5%;
 }
-.section2 .skill_level .con{
+
+.section2 .skill_level .con {
     width: 160px;
     height: 160px;
     text-align: center;
@@ -140,79 +166,89 @@ nav .nav_bar{
     padding: 30px 10px 0 10px;
     position: relative;
 }
-.section2 .skill_level .con p{
+
+.section2 .skill_level .con p {
     font-size: 25px;
     font-weight: bold;
     margin: 0 auto;
 }
-.section2 .skill_content{
+
+.section2 .skill_content {
     width: 60%;
     float: right;
-    margin-top:30px;
+    margin-top: 30px;
 }
-canvas{
+
+canvas {
     position: absolute;
     top: 0;
     left: 0;
 }
 
 /*section3*/
-.section3 .project{
-    margin:15px 0px;
-    overflow:hidden;
+.section3 .project {
+    margin: 15px 0px;
+    overflow: hidden;
 }
-.section3 .project_time{
+
+.section3 .project_time {
     float: left;
-    width:140px;
+    width: 140px;
     height: 140px;
     margin-left: 10%;
     text-align: center;
     background-color: #E86064;
-    border-radius:50%;
+    border-radius: 50%;
     position: relative;
 }
-.section3 .project_time h3{
+
+.section3 .project_time h3 {
     font-size: 18px;
-    font-weight:normal;
+    font-weight: normal;
     color: #fff;
 }
-.section3 .project_time hgroup{
+
+.section3 .project_time hgroup {
     position: absolute;
     left: 8%;
     top: 30%;
 }
-.section3 .project_time:before{
+
+.section3 .project_time:before {
     content: "";
     display: inline-block;
-    padding-bottom:100%;
+    padding-bottom: 100%;
 }
-.section3 .project_content{
+
+.section3 .project_content {
     width: 75%;
     float: right;
     padding-left: 100px;
     border-left: 2px solid #9eddf2;
 }
-.section3 .project_content p{
+
+.section3 .project_content p {
     font-size: 18px;
-    font-weight:normal;
+    font-weight: normal;
 }
 
 /*section4*/
-.section4 .program{
+.section4 .program {
     margin: 20px 0 20px 10%;
     line-height: 2.8;
 }
 
-.section4 .program p{
+.section4 .program p {
     font-size: 20px;
 }
 
 /*section5*/
-.section5 table{
+.section5 table {
     text-align: center;
     margin: 10px auto;
 }
-.section5 table tr td{
+
+.section5 table tr td {
     font-size: 20px;
     padding: 15px 15px 15px 30px;
 }
